@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas {
+  background-color: #999;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bar {
+  background-color: blue;
+  border-color: blue;
+  fill: blue;
+}
+
+.bar:hover {
+  fill: #17252a;
+}
+
+g {
+  color: #17252a;
+}
+g line {
+  stroke: #ffffff;
+}
+g text {
+  fill: #ffffff;
+}
+
+#tooltip {
+  margin-top: 10px;
+  color: #feffff;
+  font-size: 28px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: blue;
+}
+
+#title {
+  font-size: 30px;
+  fill: #17252a;
+}
